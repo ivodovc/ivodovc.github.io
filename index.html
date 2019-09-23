@@ -2,8 +2,90 @@
 <html>
   <head>
     <title>HangouterEventAdmin</title>
+
+    <style>
+      /* Copied from MDN*/
+      form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 800px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+      }
+
+
+        label {
+          /* Uniform size & alignment */
+          display: inline-block;
+          width: 150px;
+          text-align: right;
+          vertical-align: top;
+          margin-bottom: 5px;
+        }
+
+        input {
+          /* Uniform size & alignment */
+          display: inline-block;
+          width: 250px;
+          text-align: left;
+        }
+
+        textarea {
+
+        /* Uniform text field size */
+        width: 400px;
+        height: 200px;
+        box-sizing: border-box;
+
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
+
+    </style>
   </head>
   <body>
-    <h4>Test</h4>
+    <h4>Simple form to add event for Hangouter Database</h4>
+
+    <form action="https://hangouter-backend.herokuapp.com/api/v1/submitevent" method="POST">
+      <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="etitle">
+      </div>
+      <div>
+        <label for="thumbnail">Thumbnail:</label>
+        <input type="url" id="thumbnail" name="etb">
+      </div>
+      <div>
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="ecat">
+      </div>
+      <div>
+        <label for="starttime">Starttime:</label>
+        <input type="datetime-local" id="starttime" name="estart">
+      </div>
+      <div>
+        <label for="endtime">Endtime:</label>
+        <input type="datetime-local" id="endtime" name="eend">
+      </div>
+      <div>
+        <label for="org"><strike>Organizer:</strike></label>
+        <input type="text" id="org" name="eorg" value="Reserved">
+      </div>
+      <div>
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="eplace">
+      </div>
+      <div>
+        <label for="desc">Description:</label>
+        <textarea id="desc" name="edesc"></textarea>
+      </div>
+      <div>
+        <label for="pass">Pass:</label>
+        <input type="text" id="pass" name="epass">
+      </div>
+        <input type="submit" value="submit"/>
+    </form>
   </body>
 </html>

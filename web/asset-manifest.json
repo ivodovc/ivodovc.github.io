@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "ivodovc.github.io/web/static/css/main.34de6062.chunk.css",
-    "main.js": "ivodovc.github.io/web/static/js/main.a68c774c.chunk.js",
-    "main.js.map": "ivodovc.github.io/web/static/js/main.a68c774c.chunk.js.map",
-    "runtime-main.js": "ivodovc.github.io/web/static/js/runtime-main.a9f21f10.js",
-    "runtime-main.js.map": "ivodovc.github.io/web/static/js/runtime-main.a9f21f10.js.map",
-    "static/js/2.f123cf20.chunk.js": "ivodovc.github.io/web/static/js/2.f123cf20.chunk.js",
-    "static/js/2.f123cf20.chunk.js.map": "ivodovc.github.io/web/static/js/2.f123cf20.chunk.js.map",
-    "index.html": "ivodovc.github.io/web/index.html",
-    "precache-manifest.de972682080ad5eb21af3b88e4804928.js": "ivodovc.github.io/web/precache-manifest.de972682080ad5eb21af3b88e4804928.js",
-    "service-worker.js": "ivodovc.github.io/web/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "ivodovc.github.io/web/static/css/main.34de6062.chunk.css.map",
-    "static/media/FontAwesome5_Regular.ttf": "ivodovc.github.io/web/static/media/FontAwesome5_Regular.4447ebe7.ttf",
-    "static/media/logores.png": "ivodovc.github.io/web/static/media/logores.9c61d68a.png"
+    "main.css": "/static/css/main.34de6062.chunk.css",
+    "main.js": "/static/js/main.b2b35208.chunk.js",
+    "main.js.map": "/static/js/main.b2b35208.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cb1c7018.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cb1c7018.js.map",
+    "static/js/2.f123cf20.chunk.js": "/static/js/2.f123cf20.chunk.js",
+    "static/js/2.f123cf20.chunk.js.map": "/static/js/2.f123cf20.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f0cc4012d19c937fe9a60c7f68d7c2b1.js": "/precache-manifest.f0cc4012d19c937fe9a60c7f68d7c2b1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
+    "static/media/FontAwesome5_Regular.ttf": "/static/media/FontAwesome5_Regular.4447ebe7.ttf",
+    "static/media/logores.png": "/static/media/logores.9c61d68a.png"
   }
 }

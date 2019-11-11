@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.34de6062.chunk.css",
-    "main.js": "/web/static/js/main.f328410e.chunk.js",
-    "main.js.map": "/web/static/js/main.f328410e.chunk.js.map",
-    "runtime-main.js": "/web/static/js/runtime-main.58cdde00.js",
-    "runtime-main.js.map": "/web/static/js/runtime-main.58cdde00.js.map",
-    "static/js/2.be4972c1.chunk.js": "/web/static/js/2.be4972c1.chunk.js",
-    "static/js/2.be4972c1.chunk.js.map": "/web/static/js/2.be4972c1.chunk.js.map",
-    "index.html": "/web/index.html",
-    "precache-manifest.9a911f9582e107d67d62169346200d82.js": "/web/precache-manifest.9a911f9582e107d67d62169346200d82.js",
-    "service-worker.js": "/web/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/web/static/css/main.34de6062.chunk.css.map",
-    "static/media/FontAwesome5_Regular.ttf": "/web/static/media/FontAwesome5_Regular.4447ebe7.ttf",
-    "static/media/logores.png": "/web/static/media/logores.9c61d68a.png"
+    "main.css": "udalosti.tk/static/css/main.34de6062.chunk.css",
+    "main.js": "udalosti.tk/static/js/main.832fd17d.chunk.js",
+    "main.js.map": "udalosti.tk/static/js/main.832fd17d.chunk.js.map",
+    "runtime-main.js": "udalosti.tk/static/js/runtime-main.8353594b.js",
+    "runtime-main.js.map": "udalosti.tk/static/js/runtime-main.8353594b.js.map",
+    "static/js/2.f123cf20.chunk.js": "udalosti.tk/static/js/2.f123cf20.chunk.js",
+    "static/js/2.f123cf20.chunk.js.map": "udalosti.tk/static/js/2.f123cf20.chunk.js.map",
+    "index.html": "udalosti.tk/index.html",
+    "precache-manifest.3cad88ee8faaf7126f30a308e6d3052e.js": "udalosti.tk/precache-manifest.3cad88ee8faaf7126f30a308e6d3052e.js",
+    "service-worker.js": "udalosti.tk/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "udalosti.tk/static/css/main.34de6062.chunk.css.map",
+    "static/media/FontAwesome5_Regular.ttf": "udalosti.tk/static/media/FontAwesome5_Regular.4447ebe7.ttf",
+    "static/media/logores.png": "udalosti.tk/static/media/logores.9c61d68a.png"
   }
 }

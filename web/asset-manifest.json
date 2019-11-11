@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "udalosti.tk/static/css/main.34de6062.chunk.css",
-    "main.js": "udalosti.tk/static/js/main.832fd17d.chunk.js",
-    "main.js.map": "udalosti.tk/static/js/main.832fd17d.chunk.js.map",
-    "runtime-main.js": "udalosti.tk/static/js/runtime-main.8353594b.js",
-    "runtime-main.js.map": "udalosti.tk/static/js/runtime-main.8353594b.js.map",
-    "static/js/2.f123cf20.chunk.js": "udalosti.tk/static/js/2.f123cf20.chunk.js",
-    "static/js/2.f123cf20.chunk.js.map": "udalosti.tk/static/js/2.f123cf20.chunk.js.map",
-    "index.html": "udalosti.tk/index.html",
-    "precache-manifest.3cad88ee8faaf7126f30a308e6d3052e.js": "udalosti.tk/precache-manifest.3cad88ee8faaf7126f30a308e6d3052e.js",
-    "service-worker.js": "udalosti.tk/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "udalosti.tk/static/css/main.34de6062.chunk.css.map",
-    "static/media/FontAwesome5_Regular.ttf": "udalosti.tk/static/media/FontAwesome5_Regular.4447ebe7.ttf",
-    "static/media/logores.png": "udalosti.tk/static/media/logores.9c61d68a.png"
+    "main.css": "ivodovc.github.io/web/static/css/main.34de6062.chunk.css",
+    "main.js": "ivodovc.github.io/web/static/js/main.a68c774c.chunk.js",
+    "main.js.map": "ivodovc.github.io/web/static/js/main.a68c774c.chunk.js.map",
+    "runtime-main.js": "ivodovc.github.io/web/static/js/runtime-main.a9f21f10.js",
+    "runtime-main.js.map": "ivodovc.github.io/web/static/js/runtime-main.a9f21f10.js.map",
+    "static/js/2.f123cf20.chunk.js": "ivodovc.github.io/web/static/js/2.f123cf20.chunk.js",
+    "static/js/2.f123cf20.chunk.js.map": "ivodovc.github.io/web/static/js/2.f123cf20.chunk.js.map",
+    "index.html": "ivodovc.github.io/web/index.html",
+    "precache-manifest.de972682080ad5eb21af3b88e4804928.js": "ivodovc.github.io/web/precache-manifest.de972682080ad5eb21af3b88e4804928.js",
+    "service-worker.js": "ivodovc.github.io/web/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "ivodovc.github.io/web/static/css/main.34de6062.chunk.css.map",
+    "static/media/FontAwesome5_Regular.ttf": "ivodovc.github.io/web/static/media/FontAwesome5_Regular.4447ebe7.ttf",
+    "static/media/logores.png": "ivodovc.github.io/web/static/media/logores.9c61d68a.png"
   }
 }

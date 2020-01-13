@@ -8,7 +8,7 @@
       form {
         /* Center the form on the page */
         margin: 0 auto;
-        width: 800px;
+        width: 900px;
         /* Form outline */
         padding: 1em;
         border: 1px solid #CCC;
@@ -17,7 +17,7 @@
         label {
           /* Uniform size & alignment */
           display: inline-block;
-          width: 150px;
+          width: 180px;
           text-align: right;
           vertical-align: top;
           margin-bottom: 5px;
@@ -44,6 +44,17 @@
       /* Match form field borders */
       border: 1px solid #999;
     }
+    #malepismo {
+      font-size: x-small;
+      display: initial
+    }
+    #linktutorial {
+      font-size: x-small;
+      display: inline
+    }
+    #tags {
+      height: 100px
+    }
     </style>
   </head>
   <body>
@@ -51,41 +62,51 @@
 
     <form action="https://hangouter-backend.herokuapp.com/api/v1/submitevent" method="POST">
       <div>
-        <label for="title">Title:</label>
+        <label for="title">Názov:</label>
         <input type="text" id="title" name="etitle">
       </div>
       <div>
-        <label for="thumbnail">Thumbnail:</label>
+        <label for="thumbnail">URL obrázka:</label>
         <input type="url" id="thumbnail" name="etb">
       </div>
       <div>
-        <label for="category">Category:</label>
+        <label for="category">kategória:</label>
         <input type="text" id="category" name="ecat">
+        <label id="malepismo">hudba, vzdelanie, umenie, divadlo, film, (kľudne aj ľubovoľne len nech v tom nie je chaos)</label>
       </div>
       <div>
-        <label for="starttime">Starttime:</label>
+        <label for="starttime">Začiatok:</label>
         <input type="datetime-local" id="starttime" name="estart">
       </div>
       <div>
-        <label for="endtime">Endtime:</label>
+        <label for="endtime">Koniec (nepovinné):</label>
         <input type="datetime-local" id="endtime" name="eend">
       </div>
-      <div>
-        <label for="org"><strike>Organizer:</strike></label>
+      <!---<div>
+        <label for="org"><strike>Organizátor:</strike></label>
         <input type="text" id="org" name="eorg" value="Reserved">
-      </div>
+      </div>-->
       <div>
-        <label for="place">Place:</label>
+        <label for="place">Miesto konania:</label>
         <input type="text" id="place" name="eplace">
       </div>
       <div>
-        <label for="desc">Description:</label>
+        <label for="desc">Popis:</label>
         <textarea id="desc" name="edesc"></textarea>
       </div>
       <div>
-        <label for="links">Links:</label>
+        <label for="tags">Tagy:</label>
+        <textarea id="tags" name="etags" placeholder=""></textarea>
+      </div>
+      <div>
+        <label for="links">Linky (v prípade, že nechceš vložiť žiadny link vlož prázdne zátvorky {}):</label>
         <textarea id="links" name="elinks" placeholder="{}"></textarea>
       </div>
+
+      <label id="linktutorial">Tento box sa vypĺňa takto:
+        {"Názov riadka": ["adresa1", "adresa2", ...],
+        "Názov druhého riadka (ak existuje)": ["adresa1", "adresa2", "adresa3"]}
+      </label>
       <div>
         <label for="pass">Pass:</label>
         <input type="text" id="pass" name="epass">
